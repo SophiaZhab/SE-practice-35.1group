@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Головна</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="up">
+			<div id="logo">
+				<a href="https://sites.google.com/polytechnic.co.cc/main/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0/%D1%81%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97?authuser=0"><img src="images/logo.png"></a>
+			</div>
+			<div id="menu-toggle" onclick="toggleMenu()">
+				<p>Меню</p>
+			</div>
+			<div id="menu" class="hidden">
+				<div class="menu">
+					<a href="choice.html">Головна</a>
+				</div>
+				<div class="menu">
+					<a href="index.html">Карти Таро</a>
+				</div>
+				<div class="menu">
+					<a href="askquestion.html">Магічна куля</a>
+				</div>
+				<div class="menu" id="current-html">
+					<p>Автори</p>
+				</div>
+				<div class="menu">
+					<a href="https://github.com/SophiaZhab/SE-practice-35.1group/wiki">Довідка</a>
+				</div>
+			</div>
+			<div id="music">
+				<img src="images/play.png" id="music-icon">
+			</div>
+		</div>
+		<div id="main">
+			<div id="credits">
+				<div id="team-name">
+					<p>КіберВорожки</p>
+				</div>
+				<div id="names">
+					<div id="credits-first">
+						<div class="credits">
+							<p class="credits-name">Менеджер програми</p>
+							<p>Жаботинська С.Я.</p>
+						</div>
+						<div class="credits">
+							<p class="credits-name">Менеджери продукту</p>
+							<p>Доровских Д.О.</p>
+							<p>Волощук Д.О.</p>
+						</div>
+						<div class="credits">
+							<p class="credits-name">Розробники</p>
+							<p>Грисенко А.О.</p>
+							<p>Єрмолов В.В.</p>
+						</div>
+					</div>
+					<div id="credits-second">
+						<div class="credits">
+							<p class="credits-name">Тестувальники</p>
+							<p>Букало І.В.</p>
+							<p>Дерев'янко О.Р.</p>
+						</div>
+						<div class="credits">
+							<p class="credits-name">UX-спеціаліст</p>
+							<p>Дворовенко М.С.</p>
+						</div>
+						<div class="credits">
+							<p class="credits-name">Спеціалісти з розгортання</p>
+							<p>Дядечко О.С.</p>
+							<p>Агуреєв І.П.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<audio id="song">
+			<source src="music/song.mp3" type="audio/mp3">
+		</audio>
+		
+		<script src="scripts/checkDevice.js"></script>
+		<script src="scripts/menu.js"></script>
+		<script src="scripts/music.js"></script>
+	</body>
+</html>
