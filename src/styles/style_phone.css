@@ -429,6 +429,59 @@ body {
 }
 
 
+/* choice.html */
+
+#credits {
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 50vh;
+	left: 50vw;
+	padding: 1vw;
+	transform: translate(-50%, -50%);
+	color: rgb(50, 255, 255);
+	border: 2px solid transparent;
+	border-color: rgb(255, 255, 50);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	animation: current-neon-animation 1s infinite alternate,
+			   current-text-neon-animation 1s infinite alternate;
+}
+
+#names {
+	display: flex;
+	flex-direction: row;
+	font-size: 12pt;
+}
+
+#team-name {
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+}
+
+.credits-name {
+	justify-content: center;
+	align-items: center;
+	font-size: 13pt;
+	color: rgb(255, 255, 255);
+}
+
+.credits {
+	margin: 5vw;
+	height: 15vh;
+}
+
+.credits p {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 1vw;
+}
+
 /* animations */
 
 @keyframes neon-animation {
